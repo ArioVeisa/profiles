@@ -375,7 +375,9 @@ body.nav-active { overflow: hidden; }
   position: relative;
   max-width: max-content;
   margin-inline: auto;
+  
 }
+
 
 .hero-banner .w-100 {
   mask-image: url("../images/Blob.svg");
@@ -386,6 +388,7 @@ body.nav-active { overflow: hidden; }
   -webkit-mask-position: center;
   mask-size: auto;
   -webkit-mask-size: auto;
+  
 }
 
 .hero .shape {
