@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Blog Layout</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Overlay and Badge Styling */
+      .card-img-overlay {
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        color: white; /* White text */
+        display: flex;
+        flex-direction: column;
+        justify-content: end; /* Align text at the bottom */
+        padding: 1rem;
+      }
+      .badge-custom {
+        font-size: 0.8rem;
+        margin-right: 0.2rem;
+      }
+
+      /* Card Hover Effect */
+      .card:hover {
+        transform: scale(1.05); /* Slight zoom effect */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      @media (min-width: 1080px) {
+        .container-custom {
+          margin: 0 5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Image and text -->
+    <!-- Just an image -->
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light sticky-top">
+      <a class="navbar-brand mx-5" href="./index.html">
+        <img
+          src="./assets/images/logo-dark.svg"
+          width="64"
+          height="64"
+          alt=""
+        />
+      </a>
+    </nav>
+
+    <div class="container-custom">
+      <!-- start main-post -->
+      <div class="container my-5 mb-5">
+        <div class="row g-4 d-flex align-items-center">
+          <!-- Column 1: Two stacked blog cards -->
+          <div class="col-md-4">
+            <div
+              class="card text-white mb-4"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <img
+                src="https://images.pexels.com/photos/29187003/pexels-photo-29187003/free-photo-of-pasangan-berjalan-jalan-di-hutan-musim-gugur-yang-semarak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+            <div
+              class="card text-white"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              <img
+                src="https://images.pexels.com/photos/29187003/pexels-photo-29187003/free-photo-of-pasangan-berjalan-jalan-di-hutan-musim-gugur-yang-semarak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: One large blog card -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-duration="800">
+            <div class="card text-white h-100">
+              <img
+                src="https://images.pexels.com/photos/17525263/pexels-photo-17525263/free-photo-of-minuman-es-dedaunan-daun-daun.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+              />
+              <div class="card-img-overlay">
+                <div class="mb-2">
+                  <span class="badge bg-danger badge-custom">Travel</span>
+                  <span class="badge bg-primary badge-custom">Food</span>
+                </div>
+                <h5 class="card-title">
+                  The 20 Biggest Fintech Companies In America 2019
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Two stacked blog cards -->
+          <div class="col-md-4">
+            <div
+              class="card text-white mb-4"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              <img
+                src="https://images.pexels.com/photos/29187003/pexels-photo-29187003/free-photo-of-pasangan-berjalan-jalan-di-hutan-musim-gugur-yang-semarak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">
+                  The 20 Biggest Fintech Companies In America 2019
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+            <div
+              class="card text-white"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <img
+                src="https://images.pexels.com/photos/29187003/pexels-photo-29187003/free-photo-of-pasangan-berjalan-jalan-di-hutan-musim-gugur-yang-semarak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end main-post -->
+
+      <!-- Start recent-posts section -->
+      <div class="container my-5">
+        <h3 class="my-4 fw-light" data-aos="fade-right">Recent Posts</h3>
+        <div class="row g-4">
+          <!-- Post Card 1 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0">
+              <img
+                src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img-top"
+                alt="Post Image"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Cycle</span>
+                <h5 class="card-title">
+                  The AI magically removes moving objects from videos.
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >By Carrol Atkinson - July 19, 2019</small
+                  >
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                  sunt tempora dolor laudantium...
+                </p>
+                <a href="#" class="btn btn-link p-0 text-decoration-none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- More cards similar to Post Card 1... -->
+        </div>
+      </div>
+      <!-- End recent-posts section -->
+      <!-- start pagination -->
+      <div class="d-flex justify-content-center mt-5">
+        <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item" aria-current="page">
+              <span class="page-link">2</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end pagination -->
+      <div class="container my-5">
+        <div class="row g-4">
+          <!-- Kolom Pertama -->
+          <div class="col-md-6">
+            <!-- Baris Pertama - Satu Foto -->
+            <div class="card text-white mb-4">
+              <img
+                src="https://images.pexels.com/photos/29187003/pexels-photo-29187003/free-photo-of-pasangan-berjalan-jalan-di-hutan-musim-gugur-yang-semarak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+                style="object-fit: cover; height: 300px"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">
+                  The 20 Biggest Fintech Companies In America 2019
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+            <!-- Baris Kedua - Dua Foto -->
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="card text-white">
+                  <img
+                    src="https://images.pexels.com/photos/12001362/pexels-photo-12001362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    class="card-img"
+                    alt="Post Image"
+                    style="object-fit: cover; height: 200px"
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      The 20 Biggest Fintech Companies In America 2019
+                    </h5>
+                    <p class="card-text"><small>July 19, 2019</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card text-white">
+                  <img
+                    src="https://images.pexels.com/photos/17525263/pexels-photo-17525263/free-photo-of-minuman-es-dedaunan-daun-daun.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    class="card-img"
+                    alt="Post Image"
+                    style="object-fit: cover; height: 200px"
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      The 20 Biggest Fintech Companies In America 2019
+                    </h5>
+                    <p class="card-text"><small>July 19, 2019</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Kedua - Satu Foto Penuh (Potret) -->
+          <div class="col-md-6">
+            <div class="card text-white h-100">
+              <img
+                src="https://images.pexels.com/photos/27099441/pexels-photo-27099441/free-photo-of-kota-kendaraan-jalan-urban.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="card-img"
+                alt="Post Image"
+                style="object-fit: cover; height: 100%"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">
+                  The 20 Biggest Fintech Companies In America 2019
+                </h5>
+                <p class="card-text"><small>July 19, 2019</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer text-center mb-3 mt-5">
+        <div class="container">
+          <p class="copyright">© 2024 arioveisa. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init(); // Initialize AOS
+    </script>
+  </body>
+</html>
