@@ -35,9 +35,6 @@
     transform: rotate(0deg) scale(1);
   }
 }
-body {
-  background-color: #d16b86;
-}
 
 /* Penerapan animasi pada gambar SVG */
 .ops {
