@@ -69,3 +69,65 @@ h3 {
 .buton:hover {
   background-color: #ad586f;
 }
+/* Tampilan pada layar kecil seperti ponsel */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .buton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .ops {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+/* Tampilan pada layar menengah seperti tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .buton {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .ops {
+    width: 60%;
+    max-width: 300px;
+  }
+}
+
+/* Tampilan pada layar besar seperti desktop */
+@media (min-width: 1025px) {
+  .container {
+    padding: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .buton {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+
+  .ops {
+    width: 50%;
+    max-width: 400px;
+  }
+}
