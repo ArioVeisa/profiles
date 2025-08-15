@@ -1,0 +1,33 @@
+{
+  "name": "Ario Veisa - Security Research & Business Development",
+  "short_name": "Ario Veisa",
+  "description": "Security Research & Business Development expert di Indonesia. Spesialisasi cybersecurity, web development, dan business consulting.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c7b1dd",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "id",
+  "dir": "ltr"
+}
