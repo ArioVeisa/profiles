@@ -76,6 +76,10 @@ export default function Header() {
             <li role="none">
               <Link href="/#contact" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Kontak">Contact</Link>
             </li>
+
+            <li role="none">
+              <Link href="/blog" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Blog">Blog</Link>
+            </li>
           </ul>
 
           <div className="wrapper">
@@ -119,17 +123,17 @@ export default function Header() {
           </ul>
         </nav>
 
-        <button 
-          className="nav-open-btn" 
-          aria-label="open menu" 
+        <button
+          className="nav-open-btn"
+          aria-label="open menu"
           onClick={toggleNav}
         >
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
         </button>
 
-        <div 
-          className={`overlay ${isNavOpen ? 'active' : ''}`} 
-          data-nav-toggler 
+        <div
+          className={`overlay ${isNavOpen ? 'active' : ''}`}
+          data-nav-toggler
           data-overlay
           onClick={closeNav}
         ></div>
