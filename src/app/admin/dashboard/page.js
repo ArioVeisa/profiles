@@ -2,16 +2,27 @@ import prisma from '@/lib/prisma';
 import Link from 'next/link';
 
 async function getStats() {
-    const articleCount = await prisma.article.count();
-    const publishedCount = await prisma.article.count({ where: { isPublished: true } });
-    const draftCount = await prisma.article.count({ where: { isPublished: false } });
+    try {
+        const articleCount = await prisma.article.count();
+        const publishedCount = await prisma.article.count({ where: { isPublished: true } });
+        const draftCount = await prisma.article.count({ where: { isPublished: false } });
 
-    const recentArticles = await prisma.article.findMany({
-        orderBy: { createdAt: 'desc' },
-        take: 5,
-    });
+        const recentArticles = await prisma.article.findMany({
+            orderBy: { createdAt: 'desc' },
+            take: 5,
+        });
 
-    return { articleCount, publishedCount, draftCount, recentArticles };
+        return { articleCount, publishedCount, draftCount, recentArticles };
+    } catch (error) {
+        console.error('Failed to fetch dashboard stats:', error);
+        // Jangan gagalkan build jika database tidak bisa diakses
+        return {
+            articleCount: 0,
+            publishedCount: 0,
+            draftCount: 0,
+            recentArticles: [],
+        };
+    }
 }
 
 export default async function Dashboard() {

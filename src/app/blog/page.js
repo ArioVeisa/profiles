@@ -8,11 +8,17 @@ export const metadata = {
 };
 
 async function getArticles() {
-    const articles = await prisma.article.findMany({
-        where: { isPublished: true },
-        orderBy: { createdAt: 'desc' },
-    });
-    return articles;
+    try {
+        const articles = await prisma.article.findMany({
+            where: { isPublished: true },
+            orderBy: { createdAt: 'desc' },
+        });
+        return articles;
+    } catch (error) {
+        console.error('Failed to fetch articles:', error);
+        // Jika database tidak bisa diakses saat build, jangan gagalkan build
+        return [];
+    }
 }
 
 export default async function BlogPage() {
