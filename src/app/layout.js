@@ -24,19 +24,19 @@ export default function RootLayout({ children }) {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://arioveisa.me/" />
+        <meta property="og:url" content="https://arioveisaa.me/" />
         <meta property="og:title" content="Ario Veisa - Security Research & Business Development Expert" />
         <meta property="og:description" content="Security Research & Business Development expert di Indonesia. Spesialisasi cybersecurity, web development, dan business consulting." />
-        <meta property="og:image" content="https://arioveisa.me/assets/images/hero-img.jpg" />
+        <meta property="og:image" content="https://arioveisaa.me/assets/images/hero-img.jpg" />
         <meta property="og:site_name" content="Ario Veisa Portfolio" />
         <meta property="og:locale" content="id_ID" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://arioveisa.me/" />
+        <meta property="twitter:url" content="https://arioveisaa.me/" />
         <meta property="twitter:title" content="Ario Veisa - Security Research & Business Development Expert" />
         <meta property="twitter:description" content="Security Research & Business Development expert di Indonesia. Spesialisasi cybersecurity, web development, dan business consulting." />
-        <meta property="twitter:image" content="https://arioveisa.me/assets/images/hero-img.jpg" />
+        <meta property="twitter:image" content="https://arioveisaa.me/assets/images/hero-img.jpg" />
         
         {/* Additional SEO Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-title" content="Ario Veisa" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href="https://arioveisa.me/" />
+        <link rel="canonical" href="https://arioveisaa.me/" />
         
         {/* Favicon */}
         <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" sizes="64x64" />
@@ -84,8 +84,8 @@ export default function RootLayout({ children }) {
               "name": "Ario Veisa",
               "jobTitle": "Security Research & Business Development",
               "description": "Security Research & Business Development expert di Indonesia",
-              "url": "https://arioveisa.me",
-              "image": "https://arioveisa.me/assets/images/hero-img.jpg",
+              "url": "https://arioveisaa.me",
+              "image": "https://arioveisaa.me/assets/images/hero-img.jpg",
               "sameAs": [
                 "https://twitter.com/arioveisa",
                 "https://facebook.com/arioveisa",

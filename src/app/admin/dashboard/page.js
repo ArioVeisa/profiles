@@ -23,7 +23,7 @@ export default async function Dashboard() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
                 <div>
                     <h1 className="text-5xl font-black text-gray-900 tracking-tight">Dashboard</h1>
-                    <p className="text-gray-500 mt-3 text-xl">Welcome back! Here's your blog overview.</p>
+                    <p className="text-gray-500 mt-3 text-xl">Welcome back! Here&apos;s your blog overview.</p>
                 </div>
                 <Link
                     href="/admin/articles/new"

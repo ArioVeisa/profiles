@@ -319,7 +319,7 @@ export default function Home() {
                     Check out some of my latest projects with creative ideas.
                   </p>
                 </div>
-                <Link href="/404" className="btn btn-secondary">See All Projects</Link>
+                <Link href="https://github.com/arioveisa" className="btn btn-secondary">See All Projects</Link>
               </div>
 
               <ul className="grid-list">
@@ -341,7 +341,7 @@ export default function Home() {
                         complexity.
                       </p>
                       <Link href="/404" className="btn-text" style={{ color: '#a07cc5' }}>
-                        <span className="span">See Project</span>
+                        {/* <span className="span"></span> */}
                         <ion-icon
                           name="arrow-forward-outline"
                           aria-hidden="true"
@@ -376,13 +376,7 @@ export default function Home() {
                         designed to streamline business operations and improve
                         cost efficiency.
                       </p>
-                      <Link href="/404" className="btn-text" style={{ color: '#3f78e0' }}>
-                        <span className="span">See Project</span>
-                        <ion-icon
-                          name="arrow-forward-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                      </Link>
+                    
                     </div>
                     <figure className="card-banner" data-reveal="left">
                       <img
@@ -414,13 +408,7 @@ export default function Home() {
                         market presence and creating sustainable strategies for
                         future projects.
                       </p>
-                      <Link href="/404" className="btn-text" style={{ color: '#7cb798' }}>
-                        <span className="span">See Project</span>
-                        <ion-icon
-                          name="arrow-forward-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                      </Link>
+                 
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
@@ -451,13 +439,7 @@ export default function Home() {
                         and access controls, to identify any potential weak points
                         that automated tools might have missed.
                       </p>
-                      <Link href="/404" className="btn-text" style={{ color: '#d16b86' }}>
-                        <span className="span">See Project</span>
-                        <ion-icon
-                          name="arrow-forward-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                      </Link>
+                      
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
@@ -497,7 +479,14 @@ export default function Home() {
                   </p>
                 </div>
 
-                <form action="" className="contact-form" data-reveal="right">
+                {/* Form contact akan mengarahkan langsung ke email Ario */}
+                <form
+                  action="mailto:arioveisa@gmail.com"
+                  method="GET"
+                  encType="text/plain"
+                  className="contact-form"
+                  data-reveal="right"
+                >
                   <div className="input-wrapper">
                     <input
                       type="text"

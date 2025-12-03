@@ -12,7 +12,7 @@ export default function NotFound() {
         <title>404 - Halaman Tidak Ditemukan | Ario Veisa</title>
         <meta name="description" content="Halaman yang Anda cari tidak ditemukan. Kembali ke beranda Ario Veisa - Security Research & Business Development Expert." />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://arioveisa.me/404" />
+        <link rel="canonical" href="https://arioveisaa.me/404" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style-404.css" />
         <link href="/favicon.svg" rel="shortcut icon" type="image/x-icon" />
         <link
@@ -30,7 +30,7 @@ export default function NotFound() {
             Halaman yang Anda cari tidak ditemukan. <br />
             Bisa jadi karena URL tersebut salah atau tidak tersedia.
           </h3>
-          <Link className="buton" href="/">www.arioveisa.me</Link>
+          <Link className="buton" href="/">www.arioveisaa.me</Link>
         </div>
       </body>
     </html>

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://arioveisa.me/sitemap.xml
+Sitemap: https://arioveisaa.me/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
