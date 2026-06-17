@@ -265,6 +265,27 @@ const projects = [
     tech: ['Next.js', 'Travel System', 'Booking Flow', 'Payment Tracking', 'Landing Page'],
     link: null,
   },
+  {
+    id: 13,
+    title: 'FieldBook Field Booking System',
+    category: 'Web Development',
+    categoryColor: '#148b43',
+    bgColor: '#effaf3',
+    thumbnail: '/assets/images/projects/fieldbook/fieldbook-booking-lapangan-system.png',
+    images: ['/assets/images/projects/fieldbook/fieldbook-booking-lapangan-system.png'],
+    description:
+      'A field booking system for helping customers find, reserve, and pay for sports fields online with real-time availability, secure transactions, and simple booking flow.',
+    details: [
+      'Online field catalog and booking flow for customers',
+      'Real-time availability checking for each field schedule',
+      'Secure payment flow for confirmed reservations',
+      'Booking summary and customer reservation management',
+      'Pricing and promotion support for field operators',
+      'Landing page optimized for quick booking conversion',
+    ],
+    tech: ['Next.js', 'Booking System', 'Payment Flow', 'Availability Check', 'Landing Page'],
+    link: null,
+  },
 ];
 
 const categories = ['All', ...new Set(projects.map((project) => project.category))];
