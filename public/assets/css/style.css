@@ -1556,3 +1556,36 @@ textarea.input-field {
     }
   }
 }
+
+/* Floating WhatsApp contact button */
+.floating-whatsapp {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 140;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: linear-gradient(135deg, #22c55e, #0f9f52);
+  border-radius: 50%;
+  box-shadow: 0 16px 38px rgba(15, 159, 82, 0.35);
+  font-size: 2.8rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.floating-whatsapp:is(:hover, :focus-visible) {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 44px rgba(15, 159, 82, 0.45);
+}
+
+@media (max-width: 991px) {
+  .floating-whatsapp {
+    right: 18px;
+    bottom: 96px;
+    width: 52px;
+    height: 52px;
+    font-size: 2.4rem;
+  }
+}

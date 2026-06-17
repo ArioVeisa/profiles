@@ -303,7 +303,7 @@ export default function Home() {
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
-                        src="/assets/images/projects/gymfit/gymfit-membership-dashboard.png"
+                        src="/assets/images/projects/gymfit/gymfit-01-landing.png"
                         width="650"
                         height="370"
                         loading="lazy"
@@ -333,7 +333,7 @@ export default function Home() {
                     </div>
                     <figure className="card-banner" data-reveal="left">
                       <img
-                        src="/assets/images/projects/bank-app/bank-app-mobile-preview.png"
+                        src="/assets/images/projects/bank-app/bank-app-01-mobile-preview.png"
                         width="600"
                         height="367"
                         loading="lazy"
@@ -364,7 +364,7 @@ export default function Home() {
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
-                        src="/assets/images/projects/sadhana/sadhana-pos-dashboard-mockup.png"
+                        src="/assets/images/projects/sadhana/sadhana-erp-04-macbook-mockup.png"
                         width="650"
                         height="370"
                         loading="lazy"
@@ -395,7 +395,7 @@ export default function Home() {
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
-                        src="/assets/images/projects/sadhana/sadhana-pos-order-menu-mockup.png"
+                        src="/assets/images/projects/sadhana/sadhana-pos-01-macbook-mockup.png"
                         width="620"
                         height="370"
                         loading="lazy"
@@ -461,9 +461,14 @@ export default function Home() {
                     required
                     className="input-field"
                   ></textarea>
-                  <button type="submit" className="btn btn-secondary">
+                  <a
+                    href="https://wa.me/6285182302209"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary"
+                  >
                     Send message
-                  </button>
+                  </a>
                 </form>
               </div>
     </div>

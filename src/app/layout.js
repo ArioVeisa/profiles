@@ -12,7 +12,7 @@ const manrope = Manrope({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="id">
+    <html lang="id" suppressHydrationWarning>
       <head>
         <title>Ario Veisa - Software Architect & Business Development | Indonesia</title>
         <meta name="description" content="Ario Veisa adalah Software Architect & Business Development di Indonesia. Spesialisasi dalam system architecture, web development, dan business consulting dengan pengalaman 250+ proyek." />
@@ -112,8 +112,17 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={manrope.className}>
+      <body className={manrope.className} suppressHydrationWarning>
         {children}
+        <a
+          href="https://wa.me/6285182302209"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="floating-whatsapp"
+          aria-label="Chat WhatsApp"
+        >
+          <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+        </a>
         
         {/* Ionicons Scripts */}
         <Script 

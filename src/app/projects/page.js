@@ -12,11 +12,11 @@ const projects = [
     category: 'Business Development',
     categoryColor: '#7cb798',
     bgColor: '#f5faf7',
-    thumbnail: '/assets/images/projects/sadhana/sadhana-erp-dashboard.png',
+    thumbnail: '/assets/images/projects/sadhana/sadhana-erp-01-dashboard.png',
     images: [
-      '/assets/images/projects/sadhana/sadhana-erp-dashboard.png',
-      '/assets/images/projects/sadhana/sadhana-landing-page.png',
-      '/assets/images/projects/sadhana/sadhana-pos-dashboard-full.png',
+      '/assets/images/projects/sadhana/sadhana-erp-01-dashboard.png',
+      '/assets/images/projects/sadhana/sadhana-erp-02-landing.png',
+      '/assets/images/projects/sadhana/sadhana-erp-03-dashboard-full.png',
     ],
     description:
       'An integrated ERP platform for managing inventory, production, purchasing, finance, HR, reporting, and multi-outlet operations. Built to improve internal workflows and support scalable business growth.',
@@ -37,8 +37,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#7b4df3',
     bgColor: '#f5f1ff',
-    thumbnail: '/assets/images/projects/gymfit/gymfit-membership-dashboard.png',
-    images: ['/assets/images/projects/gymfit/gymfit-membership-dashboard.png'],
+    thumbnail: '/assets/images/projects/gymfit/gymfit-01-landing.png',
+    images: ['/assets/images/projects/gymfit/gymfit-01-landing.png'],
     description:
       'An all-in-one gym membership system for fitness centers. Built to manage members, membership packages, online payments, QR code check-ins, automated notifications, and reporting in one platform.',
     details: [
@@ -58,8 +58,8 @@ const projects = [
     category: 'App Development',
     categoryColor: '#3f78e0',
     bgColor: '#f1f5fd',
-    thumbnail: '/assets/images/projects/bank-app/bank-app-mobile-preview.png',
-    images: ['/assets/images/projects/bank-app/bank-app-mobile-preview.png'],
+    thumbnail: '/assets/images/projects/bank-app/bank-app-01-mobile-preview.png',
+    images: ['/assets/images/projects/bank-app/bank-app-01-mobile-preview.png'],
     description:
       'A web application that helps manage budgets and track inventory, designed to streamline business operations and improve cost efficiency with modern payment integration.',
     details: [
@@ -79,8 +79,8 @@ const projects = [
     category: 'POS System',
     categoryColor: '#2f7df6',
     bgColor: '#f4f8ff',
-    thumbnail: '/assets/images/projects/sadhana/sadhana-pos-system-dashboard.png',
-    images: ['/assets/images/projects/sadhana/sadhana-pos-system-dashboard.png'],
+    thumbnail: '/assets/images/projects/sadhana/sadhana-pos-02-dashboard.png',
+    images: ['/assets/images/projects/sadhana/sadhana-pos-02-dashboard.png'],
     description:
       'A point-of-sale system for outlet operations, covering product categories, menu selection, order cart, checkout flow, sales history, and stock availability for faster cashier transactions.',
     details: [
@@ -100,8 +100,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#10a88a',
     bgColor: '#f0fffb',
-    thumbnail: '/assets/images/projects/pawcare/pawcare-veterinary-clinic-dashboard.png',
-    images: ['/assets/images/projects/pawcare/pawcare-veterinary-clinic-dashboard.png'],
+    thumbnail: '/assets/images/projects/pawcare/pawcare-01-dashboard.png',
+    images: ['/assets/images/projects/pawcare/pawcare-01-dashboard.png'],
     description:
       'A veterinary clinic dashboard for managing animal patients, owners, appointments, medical records, services, products, sales, finance, and reporting in one friendly workspace.',
     details: [
@@ -121,8 +121,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#00c781',
     bgColor: '#effcf7',
-    thumbnail: '/assets/images/projects/gudangku/gudangku-inventory-dashboard.png',
-    images: ['/assets/images/projects/gudangku/gudangku-inventory-dashboard.png'],
+    thumbnail: '/assets/images/projects/gudangku/gudangku-01-dashboard.png',
+    images: ['/assets/images/projects/gudangku/gudangku-01-dashboard.png'],
     description:
       'A warehouse inventory dashboard designed to monitor total items, stock levels, incoming and outgoing stock, low-stock warnings, categories, suppliers, warehouse capacity, and item status.',
     details: [
@@ -142,8 +142,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#4a4a4a',
     bgColor: '#f7f7f7',
-    thumbnail: '/assets/images/projects/distribu/distribu-id-dashboard.png',
-    images: ['/assets/images/projects/distribu/distribu-id-dashboard.png'],
+    thumbnail: '/assets/images/projects/distribu/distribu-01-dashboard.png',
+    images: ['/assets/images/projects/distribu/distribu-01-dashboard.png'],
     description:
       'A distributor management system for monitoring sales, orders, distributors, products, delivery activity, stock, invoices, returns, and daily distribution performance in one operational dashboard.',
     details: [
@@ -163,8 +163,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#0b1a3a',
     bgColor: '#f3f7ff',
-    thumbnail: '/assets/images/projects/properticore/properticore-management-system.png',
-    images: ['/assets/images/projects/properticore/properticore-management-system.png'],
+    thumbnail: '/assets/images/projects/properticore/properticore-01-landing.png',
+    images: ['/assets/images/projects/properticore/properticore-01-landing.png'],
     description:
       'A property management system for managing property units, tenants, payments, bills, maintenance, occupancy data, and monthly revenue in one integrated platform.',
     details: [
@@ -184,8 +184,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#9b4dff',
     bgColor: '#f8f1ff',
-    thumbnail: '/assets/images/projects/eventora/eventora-event-organizer-system.png',
-    images: ['/assets/images/projects/eventora/eventora-event-organizer-system.png'],
+    thumbnail: '/assets/images/projects/eventora/eventora-01-landing.png',
+    images: ['/assets/images/projects/eventora/eventora-01-landing.png'],
     description:
       'An event organizer system for planning, managing, and evaluating events through one integrated platform, including event schedules, participants, ticketing, payments, and analytics.',
     details: [
@@ -205,8 +205,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#17472c',
     bgColor: '#f8f3eb',
-    thumbnail: '/assets/images/projects/restomate/restomate-restaurant-management-system.png',
-    images: ['/assets/images/projects/restomate/restomate-restaurant-management-system.png'],
+    thumbnail: '/assets/images/projects/restomate/restomate-01-landing.png',
+    images: ['/assets/images/projects/restomate/restomate-01-landing.png'],
     description:
       'A restaurant management system for handling orders, inventory, employees, sales reports, and daily restaurant operations in one integrated platform.',
     details: [
@@ -226,8 +226,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#6d5dfc',
     bgColor: '#f5f4ff',
-    thumbnail: '/assets/images/projects/edusmart/edusmart-school-management-system.png',
-    images: ['/assets/images/projects/edusmart/edusmart-school-management-system.png'],
+    thumbnail: '/assets/images/projects/edusmart/edusmart-01-dashboard.png',
+    images: ['/assets/images/projects/edusmart/edusmart-01-dashboard.png'],
     description:
       'A school management system for managing students, teachers, classes, academics, attendance, announcements, library data, finance, and school reports in one dashboard.',
     details: [
@@ -247,10 +247,10 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#1f5137',
     bgColor: '#f6f1e8',
-    thumbnail: '/assets/images/projects/nurumroh/nurumroh-travel-umroh-system-hero.png',
+    thumbnail: '/assets/images/projects/nurumroh/nurumroh-01-hero.png',
     images: [
-      '/assets/images/projects/nurumroh/nurumroh-travel-umroh-system-hero.png',
-      '/assets/images/projects/nurumroh/nurumroh-travel-umroh-system-home.png',
+      '/assets/images/projects/nurumroh/nurumroh-01-hero.png',
+      '/assets/images/projects/nurumroh/nurumroh-02-home.png',
     ],
     description:
       'A travel umroh system for managing umroh packages, jamaah registration, payment flow, departure schedules, facilities, testimonials, and customer support in one integrated platform.',
@@ -271,8 +271,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#148b43',
     bgColor: '#effaf3',
-    thumbnail: '/assets/images/projects/fieldbook/fieldbook-booking-lapangan-system.png',
-    images: ['/assets/images/projects/fieldbook/fieldbook-booking-lapangan-system.png'],
+    thumbnail: '/assets/images/projects/fieldbook/fieldbook-01-landing.png',
+    images: ['/assets/images/projects/fieldbook/fieldbook-01-landing.png'],
     description:
       'A field booking system for helping customers find, reserve, and pay for sports fields online with real-time availability, secure transactions, and simple booking flow.',
     details: [
@@ -292,10 +292,10 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#0b8f43',
     bgColor: '#effaf3',
-    thumbnail: '/assets/images/projects/playfield/playfield-padel-booking-system-home.png',
+    thumbnail: '/assets/images/projects/playfield/playfield-01-home.png',
     images: [
-      '/assets/images/projects/playfield/playfield-padel-booking-system-home.png',
-      '/assets/images/projects/playfield/playfield-padel-booking-system-showcase.png',
+      '/assets/images/projects/playfield/playfield-01-home.png',
+      '/assets/images/projects/playfield/playfield-02-showcase.png',
     ],
     description:
       'A padel field booking system for searching available courts, checking schedules, making reservations, and completing payments through a simple online booking experience.',
@@ -316,8 +316,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#2457ff',
     bgColor: '#f2f6ff',
-    thumbnail: '/assets/images/projects/rental-mobil/rental-mobil-dashboard.png',
-    images: ['/assets/images/projects/rental-mobil/rental-mobil-dashboard.png'],
+    thumbnail: '/assets/images/projects/rental-mobil/rental-mobil-01-dashboard.png',
+    images: ['/assets/images/projects/rental-mobil/rental-mobil-01-dashboard.png'],
     description:
       'A modern car rental dashboard for managing reservations, vehicles, customers, drivers, payments, reports, promotions, notifications, and daily rental activity.',
     details: [
@@ -337,8 +337,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#087a3b',
     bgColor: '#f2fbf5',
-    thumbnail: '/assets/images/projects/kosthub/kosthub-management-system.png',
-    images: ['/assets/images/projects/kosthub/kosthub-management-system.png'],
+    thumbnail: '/assets/images/projects/kosthub/kosthub-01-landing.png',
+    images: ['/assets/images/projects/kosthub/kosthub-01-landing.png'],
     description:
       'A kost search and booking system for helping users find verified rooms, compare facilities, filter prices, and book kost online with complete and trusted information.',
     details: [
@@ -358,8 +358,8 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#315cff',
     bgColor: '#f2f6ff',
-    thumbnail: '/assets/images/projects/absensi-karyawan/absensi-karyawan-system.png',
-    images: ['/assets/images/projects/absensi-karyawan/absensi-karyawan-system.png'],
+    thumbnail: '/assets/images/projects/absensi-karyawan/absensi-karyawan-01-dashboard.png',
+    images: ['/assets/images/projects/absensi-karyawan/absensi-karyawan-01-dashboard.png'],
     description:
       'An employee attendance system for tracking presence, late arrivals, permissions, leave requests, work shifts, departments, and daily HR activity from one dashboard.',
     details: [
@@ -379,10 +379,10 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#079b9b',
     bgColor: '#effafa',
-    thumbnail: '/assets/images/projects/kliniksehat/kliniksehat-management-system-hero.png',
+    thumbnail: '/assets/images/projects/kliniksehat/kliniksehat-01-hero.png',
     images: [
-      '/assets/images/projects/kliniksehat/kliniksehat-management-system-hero.png',
-      '/assets/images/projects/kliniksehat/kliniksehat-management-system-full.png',
+      '/assets/images/projects/kliniksehat/kliniksehat-01-hero.png',
+      '/assets/images/projects/kliniksehat/kliniksehat-02-full.png',
     ],
     description:
       'A clinic management system for handling patient registration, medical records, doctor schedules, medicine inventory, appointment flow, and reports for small clinics.',
@@ -403,10 +403,10 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#c9a24f',
     bgColor: '#fbf6eb',
-    thumbnail: '/assets/images/projects/barbergo/barbergo-reservation-system-showcase.png',
+    thumbnail: '/assets/images/projects/barbergo/barbergo-01-showcase.png',
     images: [
-      '/assets/images/projects/barbergo/barbergo-reservation-system-showcase.png',
-      '/assets/images/projects/barbergo/barbergo-reservation-system-home.png',
+      '/assets/images/projects/barbergo/barbergo-01-showcase.png',
+      '/assets/images/projects/barbergo/barbergo-02-home.png',
     ],
     description:
       'A barbershop reservation system for booking haircut services online, choosing barbers, selecting schedules, managing service packages, and improving customer reservation flow.',
