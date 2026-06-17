@@ -292,8 +292,11 @@ const projects = [
     category: 'Web Development',
     categoryColor: '#0b8f43',
     bgColor: '#effaf3',
-    thumbnail: '/assets/images/projects/playfield/playfield-padel-booking-system.png',
-    images: ['/assets/images/projects/playfield/playfield-padel-booking-system.png'],
+    thumbnail: '/assets/images/projects/playfield/playfield-padel-booking-system-home.png',
+    images: [
+      '/assets/images/projects/playfield/playfield-padel-booking-system-home.png',
+      '/assets/images/projects/playfield/playfield-padel-booking-system-showcase.png',
+    ],
     description:
       'A padel field booking system for searching available courts, checking schedules, making reservations, and completing payments through a simple online booking experience.',
     details: [

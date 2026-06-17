@@ -56,7 +56,7 @@ export default function Home() {
 
                 <div className="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
                   <Link href="#working" className="btn btn-primary">See My Works</Link>
-                  <Link href="#contact" className="btn btn-secondary">Contact Me</Link>
+                  <Link href="https://wa.me/6285182302209" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Contact Me</Link>
                 </div>
               </div>
             </div>
@@ -433,7 +433,7 @@ export default function Home() {
 
                 {/* Form contact akan mengarahkan langsung ke email Ario */}
                 <form
-                  action="mailto:arioveisa@gmail.com"
+                  action="https://wa.me/6285182302209"
                   method="GET"
                   encType="text/plain"
                   className="contact-form"
