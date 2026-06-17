@@ -17,7 +17,7 @@ export default function Home() {
                   src="/assets/images/hero-img.jpg"
                   width="560"
                   height="540"
-                  alt="Ario Veisa - Security Research & Business Development Expert"
+                  alt="Ario Veisa - Software Architect & Business Development"
                   className="w-100"
                   data-reveal="top"
                   loading="eager"
@@ -41,7 +41,7 @@ export default function Home() {
                   data-reveal="top"
                   data-reveal-delay="0.5s"
                 >
-                  I&apos;m Security Research & Business Development.
+                  I&apos;m Software Architect & Business Development.
                 </h1>
 
                 <p
@@ -49,7 +49,7 @@ export default function Home() {
                   data-reveal="top"
                   data-reveal-delay="0.75s"
                 >
-                  Hello! I&apos;m Ario, a Security Research & Business Development
+                  Hello! I&apos;m Ario, a Software Architect & Business Development
                   based in Indonesia. I&apos;m very passionate about the work that I
                   do.
                 </p>
@@ -69,8 +69,8 @@ export default function Home() {
                 <div data-reveal="left">
                   <h2 className="h2 section-title">What I Do?</h2>
                   <p className="section-text">
-                    A dedicated Security Researcher & Developer based in
-                    Indonesia, specializing in cybersecurity, web app development,
+                    A dedicated Software Architect & Developer based in
+                    Indonesia, specializing in system architecture, web app development,
                     and business consulting. With a deep passion for creating
                     secure digital environments, focuses on analyzing threats,
                     developing secure systems, and providing strategic business
@@ -121,7 +121,7 @@ export default function Home() {
 
                   <li className="progress-item">
                     <div className="label-wrapper">
-                      <p>Security Researcher</p>
+                      <p>Software Architect</p>
                       <span className="span">85 %</span>
                     </div>
                     <div className="progress">
@@ -206,34 +206,11 @@ export default function Home() {
                         alt="web seo icon"
                       />
                     </div>
-                    <h3 className="h4 card-title">Security Researcher</h3>
+                    <h3 className="h4 card-title">Software Architect</h3>
                     <p className="card-text">
-                      Identifies and analyzes vulnerabilities in systems,
-                      applications, or networks to detect threats and protect
-                      digital environments.
-                    </p>
-                  </div>
-                </li>
-
-                <li data-reveal="bottom" data-reveal-delay="0.75s">
-                  <div className="about-card">
-                    <div className="card-icon">
-                      <img
-                        src="/assets/images/icon-6.svg"
-                        width="52"
-                        height="52"
-                        loading="lazy"
-                        alt="web seo icon"
-                      />
-                    </div>
-                    <h3 className="h4 card-title">
-                      Head of CoreTechResource Community
-                    </h3>
-                    <p className="card-text">
-                      CoreTechResource is a community for tech professionals and
-                      enthusiasts focused on cybersecurity, programming, software
-                      development, and career networking. Its mission is to share
-                      knowledge and support skill development.
+                      Designs scalable system architecture, plans technical
+                      direction, and aligns application structure with business
+                      needs for reliable digital products.
                     </p>
                   </div>
                 </li>
@@ -246,38 +223,15 @@ export default function Home() {
                         width="52"
                         height="52"
                         loading="lazy"
-                        alt="web seo icon"
+                        alt="technology leadership icon"
                       />
                     </div>
-                    <h3 className="h4 card-title">Head of Minetech.io Startup</h3>
+                    <h3 className="h4 card-title">Head of Tech Sadhanaofficial.id</h3>
                     <p className="card-text">
-                      MineTechnologyInnovation is a startup focused on advancing
-                      third party technology. It brings together professionals,
-                      researchers, and enthusiasts to drive innovation, develop
-                      new methods, and solve industry challenges through
-                      collaboration and cutting-edge solutions.
-                    </p>
-                  </div>
-                </li>
-
-                <li data-reveal="bottom" data-reveal-delay="1.25s">
-                  <div className="about-card">
-                    <div className="card-icon">
-                      <img
-                        src="/assets/images/icon-8.svg"
-                        width="52"
-                        height="52"
-                        loading="lazy"
-                        alt="web seo icon"
-                      />
-                    </div>
-                    <h3 className="h4 card-title">Urbanlens Photography Content</h3>
-                    <p className="card-text">
-                      Urbanlens Photography Content focuses on capturing and
-                      sharing the essence of urban life through photography. It
-                      highlights the beauty, complexity, and diversity of cities
-                      by exploring architecture, street life, cultural moments,
-                      and hidden details within urban landscapes.
+                      Leads the technology direction for Sadhanaofficial.id,
+                      overseeing ERP/POS development, system architecture,
+                      product improvements, and operational tools that help the
+                      business scale across outlets and digital services.
                     </p>
                   </div>
                 </li>
@@ -319,7 +273,7 @@ export default function Home() {
                     Check out some of my latest projects with creative ideas.
                   </p>
                 </div>
-                <Link href="https://github.com/arioveisa" className="btn btn-secondary">See All Projects</Link>
+                <Link href="/projects" className="btn btn-secondary">See All Projects</Link>
               </div>
 
               <ul className="grid-list">
@@ -329,18 +283,17 @@ export default function Home() {
                     style={{ backgroundColor: '#f8f5fb' }}
                   >
                     <div className="card-content" data-reveal="left">
-                      <p className="card-tag" style={{ color: '#a07cc5' }}>
-                        Digital Forensic
+                      <p className="card-tag" style={{ color: '#7b4df3' }}>
+                        Web Development
                       </p>
-                      <h3 className="h3 card-title">Wazuh App</h3>
+                      <h3 className="h3 card-title">GymFit Membership Program</h3>
                       <p className="card-text">
-                        Fully protected data, regular application of security
-                        patches and hardening practices. Compliant with PCI DSS
-                        and SOC2. A ready-to-use solution, with no additional
-                        hardware or software required, driving down the cost and
-                        complexity.
+                        Built an all-in-one gym membership system to manage
+                        members, packages, payments, check-ins, QR codes,
+                        notifications, and analytics in one platform for fitness
+                        centers.
                       </p>
-                      <Link href="/404" className="btn-text" style={{ color: '#a07cc5' }}>
+                      <Link href="/projects" className="btn-text" style={{ color: '#7b4df3' }}>
                         {/* <span className="span"></span> */}
                         <ion-icon
                           name="arrow-forward-outline"
@@ -350,11 +303,11 @@ export default function Home() {
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
-                        src="/assets/images/project-1.jpg"
+                        src="/assets/images/projects/gymfit/gymfit-membership-dashboard.png"
                         width="650"
                         height="370"
                         loading="lazy"
-                        alt="Web Design"
+                        alt="GymFit Membership Program - Web Development Project"
                         className="w-100"
                       />
                     </figure>
@@ -368,7 +321,7 @@ export default function Home() {
                   >
                     <div className="card-content" data-reveal="right">
                       <p className="card-tag" style={{ color: '#3f78e0' }}>
-                        Web Development
+                        App Development
                       </p>
                       <h3 className="h3 card-title">Bank App</h3>
                       <p className="card-text">
@@ -380,11 +333,11 @@ export default function Home() {
                     </div>
                     <figure className="card-banner" data-reveal="left">
                       <img
-                        src="/assets/images/project-2.png"
+                        src="/assets/images/projects/bank-app/bank-app-mobile-preview.png"
                         width="600"
                         height="367"
                         loading="lazy"
-                        alt="Web Design"
+                        alt="Bank App Mobile Preview - App Development Project"
                         className="w-100"
                       />
                     </figure>
@@ -400,54 +353,53 @@ export default function Home() {
                       <p className="card-tag" style={{ color: '#7cb798' }}>
                         Business Development
                       </p>
-                      <h3 className="h3 card-title">Company Project</h3>
+                      <h3 className="h3 card-title">Sadhana ERP</h3>
                       <p className="card-text">
-                        identify new business opportunities, improve operations,
-                        and establish key partnerships that drive the company&apos;s
-                        growth and long-term success. It focuses on expanding
-                        market presence and creating sustainable strategies for
-                        future projects.
+                        Identified new business opportunities, improved operations,
+                        and established key partnerships that support the company&apos;s
+                        long-term growth. Built an integrated ERP platform for inventory,
+                        production, purchasing, finance, HR, and multi-outlet operations.
                       </p>
                  
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
-                        src="/assets/images/project-3.png"
-                        width="500"
-                        height="267"
+                        src="/assets/images/projects/sadhana/sadhana-pos-dashboard-mockup.png"
+                        width="650"
+                        height="370"
                         loading="lazy"
-                        alt="Web Design"
+                        alt="Sadhana ERP Dashboard - Business Development Project"
                         className="w-100"
                       />
                     </figure>
-        </div>
+                  </div>
                 </li>
 
                 <li>
                   <div
                     className="project-card project-card-4"
-                    style={{ backgroundColor: '#fcf4f6' }}
+                    style={{ backgroundColor: '#f4f8ff' }}
                   >
                     <div className="card-content" data-reveal="left">
-                      <p className="card-tag" style={{ color: '#d16b86' }}>
-                        Security Research
+                      <p className="card-tag" style={{ color: '#2f7df6' }}>
+                        POS System
                       </p>
-                      <h3 className="h3 card-title">Maltego App</h3>
+                      <h3 className="h3 card-title">POS System</h3>
                       <p className="card-text">
-                        Performed targeted manual penetration tests on critical
-                        areas, such as user authentication, payment processing,
-                        and access controls, to identify any potential weak points
-                        that automated tools might have missed.
+                        Built a point-of-sale system for outlet operations,
+                        including product categories, menu selection, order cart,
+                        checkout flow, sales history, and stock availability to
+                        support faster cashier transactions.
                       </p>
                       
                     </div>
                     <figure className="card-banner" data-reveal="right">
                       <img
-                        src="/assets/images/project-4.png"
+                        src="/assets/images/projects/sadhana/sadhana-pos-order-menu-mockup.png"
                         width="620"
                         height="370"
                         loading="lazy"
-                        alt="Mobile Design"
+                        alt="POS System - Order Menu Dashboard"
                         className="w-100"
                       />
                     </figure>

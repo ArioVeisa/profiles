@@ -74,3 +74,7 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
+window.addEventListener("pageshow", reveal);
+
+// Run immediately too, because Next.js can load this script after the load event.
+reveal();

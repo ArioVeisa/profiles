@@ -1,9 +1,11 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
+  const pathname = usePathname();
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -13,6 +15,18 @@ export default function Header() {
   const closeNav = () => {
     setIsNavOpen(false);
   };
+
+  useEffect(() => {
+    setIsNavOpen(false);
+    document.body.classList.remove('nav-active');
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+
+    requestAnimationFrame(() => {
+      document.querySelectorAll('[data-reveal]').forEach((el) => {
+        el.classList.add('revealed');
+      });
+    });
+  }, [pathname]);
 
   // Tutup menu ketika window resize (dari mobile ke desktop)
   useEffect(() => {
@@ -34,7 +48,7 @@ export default function Header() {
             src="/assets/images/logo-dark.svg"
             width="64"
             height="24"
-            alt="Ario Veisa - Security Research & Business Development"
+            alt="Ario Veisa - Software Architect & Business Development"
             loading="eager"
           />
         </Link>
@@ -46,7 +60,7 @@ export default function Header() {
                 src="/assets/images/logo-light.svg"
                 width="64"
                 height="24"
-                alt="Ario Veisa - Security Research & Business Development"
+                alt="Ario Veisa - Software Architect & Business Development"
                 loading="eager"
               />
             </Link>
@@ -62,23 +76,38 @@ export default function Header() {
 
           <ul className="navbar-list" role="menubar">
             <li role="none">
-              <Link href="/" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Beranda">Home</Link>
+              <Link href="/" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Beranda">
+                <ion-icon name="home-outline" aria-hidden="true"></ion-icon>
+                <span>Home</span>
+              </Link>
             </li>
 
             <li role="none">
-              <Link href="/#working" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Tentang Saya">About</Link>
+              <Link href="/#working" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Tentang Saya">
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                <span>About</span>
+              </Link>
             </li>
 
             <li role="none">
-              <Link href="/#project" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Proyek">Projects</Link>
+              <Link href="/projects" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Proyek">
+                <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+                <span>Projects</span>
+              </Link>
             </li>
 
             <li role="none">
-              <Link href="/#contact" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Kontak">Contact</Link>
+              <Link href="/#contact" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Kontak">
+                <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+                <span>Contact</span>
+              </Link>
             </li>
 
             <li role="none">
-              <Link href="/blog" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Blog">Blog</Link>
+              <Link href="/blog" className="navbar-link" onClick={closeNav} role="menuitem" aria-label="Blog">
+                <ion-icon name="newspaper-outline" aria-hidden="true"></ion-icon>
+                <span>Blog</span>
+              </Link>
             </li>
           </ul>
 

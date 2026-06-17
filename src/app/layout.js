@@ -14,9 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        <title>Ario Veisa - Security Research & Business Development Expert | Indonesia</title>
-        <meta name="description" content="Ario Veisa adalah Security Research & Business Development expert di Indonesia. Spesialisasi dalam cybersecurity, web development, dan business consulting dengan pengalaman 250+ proyek." />
-        <meta name="keywords" content="security research, business development, cybersecurity, web development, Indonesia, digital forensic, security researcher" />
+        <title>Ario Veisa - Software Architect & Business Development | Indonesia</title>
+        <meta name="description" content="Ario Veisa adalah Software Architect & Business Development di Indonesia. Spesialisasi dalam system architecture, web development, dan business consulting dengan pengalaman 250+ proyek." />
+        <meta name="keywords" content="software architect, business development, system architecture, web development, Indonesia, digital forensic, security researcher" />
         <meta name="author" content="Ario Veisa" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="Indonesian" />
@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://arioveisaa.me/" />
-        <meta property="og:title" content="Ario Veisa - Security Research & Business Development Expert" />
-        <meta property="og:description" content="Security Research & Business Development expert di Indonesia. Spesialisasi cybersecurity, web development, dan business consulting." />
+        <meta property="og:title" content="Ario Veisa - Software Architect & Business Development" />
+        <meta property="og:description" content="Software Architect & Business Development di Indonesia. Spesialisasi system architecture, web development, dan business consulting." />
         <meta property="og:image" content="https://arioveisaa.me/assets/images/hero-img.jpg" />
         <meta property="og:site_name" content="Ario Veisa Portfolio" />
         <meta property="og:locale" content="id_ID" />
@@ -34,8 +34,8 @@ export default function RootLayout({ children }) {
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://arioveisaa.me/" />
-        <meta property="twitter:title" content="Ario Veisa - Security Research & Business Development Expert" />
-        <meta property="twitter:description" content="Security Research & Business Development expert di Indonesia. Spesialisasi cybersecurity, web development, dan business consulting." />
+        <meta property="twitter:title" content="Ario Veisa - Software Architect & Business Development" />
+        <meta property="twitter:description" content="Software Architect & Business Development di Indonesia. Spesialisasi system architecture, web development, dan business consulting." />
         <meta property="twitter:image" content="https://arioveisaa.me/assets/images/hero-img.jpg" />
         
         {/* Additional SEO Meta Tags */}
@@ -82,8 +82,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Ario Veisa",
-              "jobTitle": "Security Research & Business Development",
-              "description": "Security Research & Business Development expert di Indonesia",
+              "jobTitle": "Software Architect & Business Development",
+              "description": "Software Architect & Business Development di Indonesia",
               "url": "https://arioveisaa.me",
               "image": "https://arioveisaa.me/assets/images/hero-img.jpg",
               "sameAs": [
@@ -98,11 +98,11 @@ export default function RootLayout({ children }) {
                 "addressLocality": "Indonesia"
               },
               "knowsAbout": [
-                "Cybersecurity",
+                "System Architecture",
                 "Web Development",
                 "Business Development",
                 "Digital Forensic",
-                "Security Research"
+                "Software Architecture"
               ],
               "worksFor": {
                 "@type": "Organization",

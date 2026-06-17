@@ -10,7 +10,7 @@ export default function NotFound() {
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
         <title>404 - Halaman Tidak Ditemukan | Ario Veisa</title>
-        <meta name="description" content="Halaman yang Anda cari tidak ditemukan. Kembali ke beranda Ario Veisa - Security Research & Business Development Expert." />
+        <meta name="description" content="Halaman yang Anda cari tidak ditemukan. Kembali ke beranda Ario Veisa - Software Architect & Business Development." />
         <meta name="robots" content="noindex, nofollow" />
         <link rel="canonical" href="https://arioveisaa.me/404" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style-404.css" />

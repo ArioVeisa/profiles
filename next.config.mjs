@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: ['127.0.0.1'],
+  devIndicators: false,
+
   // Optimasi gambar
   images: {
     formats: ['image/webp', 'image/avif'],
