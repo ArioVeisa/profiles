@@ -1457,8 +1457,16 @@ textarea.input-field {
 
   .header,
   .header.active {
+    height: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
     animation: none !important;
     transform: none !important;
+  }
+
+  .header .container > .logo {
+    display: none !important;
   }
 
   .nav-open-btn,

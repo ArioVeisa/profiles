@@ -7,6 +7,27 @@ import { useState, useEffect, useCallback } from 'react';
 
 const projects = [
   {
+    id: 2,
+    title: 'GymFit Membership Program',
+    category: 'Web Development',
+    categoryColor: '#7b4df3',
+    bgColor: '#f5f1ff',
+    thumbnail: '/assets/images/projects/gymfit/gymfit-01-landing.png',
+    images: ['/assets/images/projects/gymfit/gymfit-01-landing.png'],
+    description:
+      'An all-in-one gym membership system for fitness centers. Built to manage members, membership packages, online payments, QR code check-ins, automated notifications, and reporting in one platform.',
+    details: [
+      'Member data management with check-in history and status tracking',
+      'Flexible membership package setup by duration and pricing',
+      'Online payment flow for safer and faster transactions',
+      'QR code check-in for quick member validation',
+      'Analytics dashboard for member growth and revenue reports',
+      'Automated reminders for payments, expired memberships, and important updates',
+    ],
+    tech: ['Next.js', 'Dashboard UI', 'Payment System', 'QR Check-in', 'Analytics'],
+    link: null,
+  },
+  {
     id: 1,
     title: 'Sadhana ERP',
     category: 'Business Development',
@@ -30,27 +51,6 @@ const projects = [
     ],
     tech: ['Next.js', 'Node.js', 'PostgreSQL', 'Prisma', 'Tailwind CSS'],
     link: 'https://sadhanaofficial.id',
-  },
-  {
-    id: 2,
-    title: 'GymFit Membership Program',
-    category: 'Web Development',
-    categoryColor: '#7b4df3',
-    bgColor: '#f5f1ff',
-    thumbnail: '/assets/images/projects/gymfit/gymfit-01-landing.png',
-    images: ['/assets/images/projects/gymfit/gymfit-01-landing.png'],
-    description:
-      'An all-in-one gym membership system for fitness centers. Built to manage members, membership packages, online payments, QR code check-ins, automated notifications, and reporting in one platform.',
-    details: [
-      'Member data management with check-in history and status tracking',
-      'Flexible membership package setup by duration and pricing',
-      'Online payment flow for safer and faster transactions',
-      'QR code check-in for quick member validation',
-      'Analytics dashboard for member growth and revenue reports',
-      'Automated reminders for payments, expired memberships, and important updates',
-    ],
-    tech: ['Next.js', 'Dashboard UI', 'Payment System', 'QR Check-in', 'Analytics'],
-    link: null,
   },
   {
     id: 3,
