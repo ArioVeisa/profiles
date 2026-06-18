@@ -115,7 +115,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className} suppressHydrationWarning>
         {children}
         <a
-          href="https://wa.me/6285182302209"
+          href="https://wa.me/6285182302209?text=Halo%20saya%20mau%20buat%20sistem%20informasi%2C%20boleh%20dibantu%20konsultasi%3F"
           target="_blank"
           rel="noopener noreferrer"
           className="floating-whatsapp"

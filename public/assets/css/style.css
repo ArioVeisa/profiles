@@ -1455,6 +1455,12 @@ textarea.input-field {
     padding-block-end: 92px;
   }
 
+  .header,
+  .header.active {
+    animation: none !important;
+    transform: none !important;
+  }
+
   .nav-open-btn,
   .nav-close-btn,
   .navbar-top,
@@ -1562,10 +1568,32 @@ textarea.input-field {
 
 @media (max-width: 991px) {
   .floating-whatsapp {
-    right: 18px;
-    bottom: 96px;
-    width: 52px;
-    height: 52px;
-    font-size: 2.4rem;
+    right: auto;
+    left: calc(50% + ((min(88vw, 360px) - 20px) / 5));
+    bottom: calc(26px + env(safe-area-inset-bottom));
+    width: 46px;
+    height: 46px;
+    font-size: 2.3rem;
+    color: #16a34a;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    transform: translateX(-50%);
+  }
+
+  .floating-whatsapp:is(:hover, :focus-visible) {
+    color: #0f9f52;
+    background: transparent;
+    box-shadow: none;
+    transform: translateX(-50%) translateY(-2px);
+  }
+
+  .navbar-list li:nth-child(4) .navbar-link {
+    color: transparent !important;
+    pointer-events: none;
+  }
+
+  .navbar-list li:nth-child(4) .navbar-link ion-icon {
+    visibility: hidden;
   }
 }
